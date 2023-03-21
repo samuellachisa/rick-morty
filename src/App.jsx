@@ -14,7 +14,8 @@ function App() {
    
       <Routes>
         <Route path="/" element={<Body/>}></Route>
-        <Route path='/character' element={<Character/>} exact></Route>
+        <Route path='/character' element={<Character/>} exact>
+        </Route>
         <Route path='/episode' element={<Episode/>} exact></Route>
         <Route path='/location' element={<Location/>} exact></Route>
       </Routes>
